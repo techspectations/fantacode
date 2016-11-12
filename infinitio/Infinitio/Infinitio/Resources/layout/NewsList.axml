@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:weightSum="100"
+    android:minHeight="25px"
+    android:background="@color/button"
+    android:padding="15dp">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:id="@+id/linearLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_gravity="center">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:id="@+id/linearLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textColor="#333333"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp" />
+        <TextView
+            android:text="Lorem ipsum is simply dummy content and now it is very easy to use in any cases."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="#e0e0e0"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

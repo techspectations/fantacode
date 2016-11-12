@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Infinitio</string>
+	<string name="loading">Loading...</string>
+	<string name="actioncancelled">Action Cancelled</string>
+	<string name="cantconnectfb">Can\'t connect to facbeook</string>
+	<string name="facebook_app_id">912541335545510</string>
+</resources>

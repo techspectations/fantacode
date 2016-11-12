@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi Nazal"
+            android:textSize="22dp"
+            android:textColor="#333333"
+            android:id="@+id/UserName"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Interest"
+            android:textSize="18dp"
+            android:textColor="#333333"
+            android:id="@+id/CatName"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select appropriate interest for you..."
+            android:textSize="15dp"
+            android:textColor="#d1d1d1"
+            android:id="@+id/CatName"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:textColor="#333333"
+                android:id="@+id/CatName" />
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SportsProgress"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:thumbTint="#333333"
+                android:progressBackgroundTint="#333333"
+                android:secondaryProgressTint="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business"
+                android:textColor="#333333"
+                android:id="@+id/BusinessProgress" />
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:thumbTint="#333333"
+                android:progressBackgroundTint="#333333"
+                android:secondaryProgressTint="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Politics"
+                android:textColor="#333333"
+                android:id="@+id/CatName" />
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PoliticsProgress"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:thumbTint="#333333"
+                android:progressBackgroundTint="#333333"
+                android:secondaryProgressTint="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technology"
+                android:textColor="#333333"
+                android:id="@+id/CatName" />
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TechnologyProgress"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:thumbTint="#333333"
+                android:progressBackgroundTint="#333333"
+                android:secondaryProgressTint="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entertainment"
+                android:textColor="#333333"
+                android:id="@+id/CatName" />
+            <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/EntertainmentProgress"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:thumbTint="#333333"
+                android:progressBackgroundTint="#333333"
+                android:secondaryProgressTint="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:textSize="16dp"
+        android:background="@color/primary"
+        android:textColor="#ffffff"
+        android:id="@+id/CatSelBtn"
+        android:paddingBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

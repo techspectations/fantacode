@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+    <TextView
+        android:id="@+id/lblMsgFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#777777"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        android:text="Infinitio"
+        android:layout_marginLeft="20dp" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/txtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_msg_from"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="100"
+            android:textColor="#ff717171"
+            android:textSize="16dp"
+            android:layout_toRightOf="@+id/textView27"
+            android:layout_marginRight="50dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/textView27"
+                android:layout_weight="70"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp">
+                <TextView
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PostName"
+                    android:textColor="#333333"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp" />
+                <TextView
+                    android:text="Lorem ipsum is simply dummy content and now it is very easy to use in any cases."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PostContent"
+                    android:textColor="#e7e7e7"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/textView27"
+                android:layout_weight="30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:src="@drawable/icon" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/triangle_msg_from"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="3dp" />
+    </RelativeLayout>
+</LinearLayout>

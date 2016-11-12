@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <color name="primary">#d34c49</color>
+  <color name="button">#ffffff</color>
+  <color name="primary_dark">#303F9F</color>
+  <color name="primary_light">#C5CAE9</color>
+  <color name="accent">#03A9F4</color>
+  <color name="primary_text">#575757</color>
+  <color name="secondary_text">#ffffff</color>
+  <color name="icons">#FFFFFF</color>
+  <color name="divider">#B6B6B6</color>
+  <color name="CreateAccount">#f1783d</color>
+  <color name="FgtPassword">#7db88f</color>
+  <color name="EmailVerification">#44adbe</color>
+  <color name="window_background">#F5F5F5</color>
+  <color name="splash_background">#F5F5F5</color>
+  <color name="page_background">#FFFFFF</color>
+  <color name="page_title">#6c5f5e</color>
+  <color name="SinglePageBG">#c6c6c6</color>
+  <color name="InvenGridBG">#efefef</color>
+  <color name="SkilledColor">#457c24</color>
+  <color name="GreenBtn">#32c48e</color>
+  <color name="Red">#ff0600</color>
+	<color name="pink">#FFC0CB</color>
+	<color name="indigo">#4B0082</color>
+  <color name="color_preloader_start">#000000</color>
+	<color name="color_preloader_center">#000000</color> 
+	<color name="color_preloader_end">#ff56a9c7</color>
+	<color name="common_plus_signin_btn_text_light_default">#333333</color>
+	<color name="backgroundforimage">#FF737373</color>
+</resources>
